@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Arezoo YOusefi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <link href="stylesheet/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--navbar-->
+        <div class="navbar">
+            <a href="#home" id="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#git">GITHUB</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <br><br>
+        <div id="home">
+            <video autoplay controls muted loop id="Typing_Video">
+                <source src="./images/videos/keyboard-10822.mp4" type="video/mp4">
+                Your browser does not support HTML5 videos!
+            </video>
+        </div>
+
+        <!--Quote on the video-->
+        <div id="Video_Text">
+            <br>
+           <h1>ARE YOU WEBSITES</h1>
+           <strong>
+                <p class="center">
+                    <br><q>Computers are incredibly fast, accurate, and stupid. Human beings are incredibly slow, inaccurate, and brilliant.<br>Together they are powerful beyond imagination.</q><br>
+                    Albert Einstein
+                    <br><br>
+                    <br> My name is Arezoo. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="row" id="about">
+            <div class="Column_2 Column_tall">
+                <img src="./images/Image1.png" alt="" id="keyboard">
+            </div>
+            
+            <div class="Column_1 Column_tall">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! , I enjoy the time thinking, coding and designing. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.academyoflearning.com/" target="_blank">Academy of Learning Career College</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--Github section-->
+        <div class="row" id="git">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p><a href="https://github.com/Arezoo-Yousefi" target="_blank">My Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/Arezoo-Yousefi" target="_blank"><img src="images/github.png" alt="GitHub Logo" class="rotate"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="row" id="contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/contactUs.png" alt="Contact_Image" width="300px" class="shake">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall form">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+               <small><p class="center">&copy 2022/2023 || all right reserved</p></small>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
