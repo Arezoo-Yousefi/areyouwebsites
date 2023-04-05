@@ -29,6 +29,9 @@
 }
 
 /*end*/
+.albert:hover {
+    text-shadow:2px 2px 8px #db0791;
+}
 body{
     margin: 8px;
     display: block;
