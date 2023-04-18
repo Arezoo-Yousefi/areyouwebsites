@@ -8,10 +8,12 @@ In this course I have also learned working with Bootstrap and jquery.
 There are some small projects I made using JavaScript.<br>
 <hr>
 Projects<br><hr>
-
-⦁	Pizza Menu<br>
-⦁	Tic-Tac_Toe Game<br>
-⦁	Calculator<br>
+<ul>
+  <li>Pizza Menu</li>
+  <li>Tic-Tac_Toe Game</li>
+  <li>Calculator</li>
+ </ul>
+  
 
 
 Pizza Menu<br>
