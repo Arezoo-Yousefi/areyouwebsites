@@ -9,7 +9,7 @@ In this course I have also learned working with Bootstrap and jquery.</p>
 <hr>
 <h2>Projects</h2><hr>
 <ul>
-  <li><a href= "https://github.com/Arezoo-Yousefi/JavaScript-Projects/tree/main/Pizza_Project" target ="_blank">Pizza Menu</a></li>
+  <li><a href= "https://github.com/Arezoo-Yousefi/JavaScript-Projects/tree/main/Pizza_Project" target ="_blank" >Pizza Menu</a></li>
   <li>Tic-Tac_Toe Game</li>
   <li>Calculator</li>
  </ul>
