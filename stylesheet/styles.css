@@ -469,7 +469,7 @@ button:hover, .form-container .btn:hover {
 /* Styling for close button on hover */
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: rgb(142, 153, 167);
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
